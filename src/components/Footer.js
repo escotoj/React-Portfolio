@@ -3,7 +3,7 @@ import { Box } from "@mui/material";
 
 const Footer = () => {
   return (
-  <Box bgcolor="blue" flex={4}>Footer</Box >
+  <Box bgcolor="orange" flex={4}>Footer</Box >
   )
 };
 

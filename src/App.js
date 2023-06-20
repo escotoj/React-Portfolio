@@ -9,8 +9,8 @@ function App() {
   return (
     <Box>
       <Navigation />
+      <Header/>
       <Stack direction="row" spacing={2} justifyContent="space-between">
-        <Header/>
         <Project/>
       </Stack>
       <Footer/>

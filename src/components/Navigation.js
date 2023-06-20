@@ -15,7 +15,7 @@ backgroundColor:"white"
 
 const Navbar = () => {
   return (
-    <AppBar position="stick">
+    <AppBar position="sticky">
       {" "}
       <StyledToolbar>
         {" "}

@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <Box bgcolor="darkolivegreen" flex={6}>
+    <Box bgcolor="lavenderblush" flex={6}>
       HEADER - JE - Jose Escoto
       {/* <Stack direction="row" justifyContent="center">
         <Typography variant="h1" component="h2">

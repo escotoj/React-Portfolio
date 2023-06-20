@@ -28,6 +28,7 @@ GitHub: [escotoj](https://github.com/escotoj)
 
 ### TODO
 
+- Add function to navbar links. 
 - Fill in project 
 - about me - page
 - Resume/background - page

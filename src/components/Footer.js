@@ -1,8 +1,9 @@
 import React from "react";
+import { Box } from "@mui/material";
 
 const Footer = () => {
   return (
-  <div>Footer</div>
+  <Box bgcolor="blue" flex={4}>Footer</Box >
   )
 };
 

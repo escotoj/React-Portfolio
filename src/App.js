@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Box, Button, Stack } from "@mui/material";
 import { Typography } from "@mui/material";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -7,18 +7,14 @@ import Project from "./components/Project";
 
 function App() {
   return (
-    <div>
-      <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
-      <Typography variant="h1" component="h2">
-        JE - Portfolio, Round 2
-      </Typography>
-      <Header/>
+    <Box>
+      <Navigation />
+      <Stack direction="row" spacing={2} justifyContent="space-between">
+        <Header/>
+        <Project/>
+      </Stack>
       <Footer/>
-      <Navigation/>
-      <Project/>
-    </div>
+    </Box>
   );
 }
 

@@ -8,13 +8,13 @@ const Project = () => {
     const itemData = [
       {
         img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-        title: 'Breakfast',
-        author: '@bkristastucchio',
+        title: 'Project 1',
+        author: '@jaetheillust',
       },
       {
         img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-        title: 'Breakfast',
-        author: '@bkristastucchio',
+        title: 'Project 2',
+        author: '@jaetheillust',
       }
     ];
   

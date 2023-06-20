@@ -8,7 +8,7 @@ import Project from "./components/Project";
 function App() {
   return (
     <Box>
-      <Navigation />
+      {/* <Navigation /> */}
       <Header/>
       <Stack direction="row" spacing={2} justifyContent="space-between">
         <Project/>

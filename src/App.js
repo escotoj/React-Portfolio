@@ -10,9 +10,9 @@ function App() {
     <Box>
       {/* <Navigation /> */}
       <Header/>
-      <Stack direction="row" spacing={2} justifyContent="space-between">
+      <Box display="flex" justifyContent="center">
         <Project/>
-      </Stack>
+      </Box>
       <Footer/>
     </Box>
   );

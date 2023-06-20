@@ -1,7 +1,11 @@
 import { Whatshot } from "@material-ui/icons";
-import { AppBar, Box, Toolbar, styled, Typography, Tab, Tabs } from "@mui/material";
+import { Tab, Tabs } from "@mui/material";
+// import { Link } from 'react-router-dom';
 import React from "react";
-// import { StreamIcon } from "@material-ui/icons"
+
+import { BrowserRouter as Link } from 'react-router-dom';
+
+
 
 // const StyledToolbar = styled(Toolbar)({
 //   display: "flex",
@@ -27,8 +31,13 @@ const Navbar = () => {
 <Tabs centered>
   <Tab label="Portfolio" />
   <Tab label="About Me" />
+
+  <Whatshot sx={{display:{xs:"block", sm:"none"}}}/>
+
   <Tab label="Contact" />
   <Tab label="Resume/CV" />
+
+
 </Tabs>
     
   );

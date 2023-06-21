@@ -10,8 +10,10 @@ function AboutPage() {
     <Box>
       {/* <Navigation /> */}
       <Header/>
+      AboutPage
       <Stack direction="row" spacing={2} justifyContent="space-between">
-        AboutPage
+      <h2>About Me</h2>
+      <p>I'M A FULLSTACK WEB DEVELOPMENT STUDENT AT UC BERKELEY, CA and my name is Jos. E. I am on a journey to learn and apply web development skills start a career as Software Engineer </p>
       </Stack>
       <Footer/>
     </Box>

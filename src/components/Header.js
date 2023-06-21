@@ -1,14 +1,16 @@
-import { Box, Typography, Stack, Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import React from "react";
 import Navigation from "./Navigation";
 
 const Header = () => {
   return (
-    <Grid bgcolor="lavenderblush" spacing={2}>
-      <Grid item xs={4}>
-        HEADER - JE - Jose Escoto
+    <Grid bgcolor="lavenderblush" spacing={2} textAlign="center">
+      <Grid item xs={12}>
+      <Typography variant="h2" component="h2">
+          Jos.E Portfolio, Round 2
+        </Typography>
       </Grid>
-      <Grid item xs={8}>
+      <Grid item xs={12}>
         <Navigation />
       </Grid>
       

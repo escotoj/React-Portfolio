@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 
 const Header = () => {
   return (
-    <Grid bgcolor="lavenderblush" spacing={2} textAlign="center">
+    <Grid bgcolor="lavenderblush" spacing={2} textAlign="center" >
       <Grid item xs={12}>
       <Typography variant="h2" component="h2">
           Jos.E Portfolio, Round 2

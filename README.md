@@ -28,19 +28,19 @@ GitHub: [escotoj](https://github.com/escotoj)
 
 ### TODO
 
+- mobile responsive navbar and projects
 - Add function to navbar links. 
-- Fill in project 
-- about me - page
-- Resume/background - page
 - contact page with a form. - page 
 - portfolio/projects - page
-- links to socials at in the footer
-- navbar should be in the header
 - colors theme 
 
 ### DONE
 
-move header to top of navbar
+- footer icons
+- images to top projects
+- move header to top of navbar
+- about me - page
+- Resume/background - page
 
 
 npx create-react-app 

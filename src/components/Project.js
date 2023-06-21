@@ -7,19 +7,32 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 const Project = () => {
     const itemData = [
       {
-        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-        title: 'Project 1',
-        author: '@jaetheillust',
+        img: './Four-Leaf-CasinoApp.png',
+        title: 'Full-Stack Casino Application',
+        about: 'Collaboration using Express and MySQL',
       },
       {
-        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-        title: 'Project 2',
-        author: '@jaetheillust',
+        img: './weatherAppUpdate.png',
+        title: 'Weather Application',
+        about: 'BootStrap and IPA requests',
+      },
+      {
+        img: './Techblog12.png',
+        title: 'Full-Stack Blog Application',
+        about: 'Model-View-Controller Paradigm',
+      },
+      {
+        img: './potterquizfinal.png',
+        title: 'HP Timed Quiz',
+        about: 'Vanilla HTML, CSS and JavaScript',
       }
     ];
   
     return (
-      <ImageList sx={{ width: 500, height: 450 }}>
+      <ImageList sx={{
+        width: { xs: 350, sm: 500, lg: 800 },
+        height: { xs: 350, sm: 450, lg: 850 },
+      }}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img
@@ -30,7 +43,7 @@ const Project = () => {
             />
             <ImageListItemBar
               title={item.title}
-              subtitle={<span>by: {item.author}</span>}
+              subtitle={<span>About: {item.about}</span>}
               position="below"
             />
           </ImageListItem>

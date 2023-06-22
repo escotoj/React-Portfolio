@@ -7,15 +7,13 @@ import Project from "../components/Project";
 
 function AboutPage() {
   return (
-    <Box>
-      {/* <Navigation /> */}
-      <Header/>
-      AboutPage
-      <Stack direction="row" spacing={2} justifyContent="space-between">
+    <Box display="flex" justifyContent="center" textAlign={"center"}>
+      <Stack>
+      <Typography>
       <h2>About Me</h2>
-      <p>I'M A FULLSTACK WEB DEVELOPMENT STUDENT AT UC BERKELEY, CA and my name is Jos. E. I am on a journey to learn and apply web development skills start a career as Software Engineer </p>
+      <p>I'm a FullStack Web Development Student At UC Berkeley, CA and my name is Jos. E. Nearing the end of this program and soon to enter the job market. I am on a journey to learn and apply web development skills start a career as Software Engineer </p>
+      </Typography>
       </Stack>
-      <Footer/>
     </Box>
   );
 }

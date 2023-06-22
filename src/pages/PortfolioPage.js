@@ -1,15 +1,13 @@
 import { Box, Stack } from "@mui/material";
 import { Typography } from "@mui/material";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 
-function ResumePage() {
+function PortfolioPage() {
   return (
     <Box display="flex" justifyContent="center" alignItems="center" minHeight="50vh">
       <Stack spacing={2}>
         <Typography variant="h2" align="center">
-          Resume/CV
+        PortfolioPage
         </Typography>
         <Box sx={{ backgroundColor: "#f5f5f5", padding: "50px", borderRadius: "8px" }}>
           <Typography variant="body1" align="center">
@@ -25,4 +23,4 @@ function ResumePage() {
   );
 }
 
-export default ResumePage;
+export default PortfolioPage;

@@ -6,9 +6,9 @@ import Navigation from "./components/Navigation";
 import Project from "./components/Project";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AboutPage from './pages/AboutPage';
-// import ContactPage from "../pages/ContactPage";
+import ContactPage from "./pages/ContactPage";
 import ResumePage from "./pages/ResumePage";
-// import PortfolioPage from "../pages/PortfolioPage";
+import PortfolioPage from "./pages/PortfolioPage";
 
 
 function App() {
@@ -18,9 +18,9 @@ function App() {
       <Router>
       <Header/>
       <Routes>
-        {/* <Route path="/" element={<PortfolioPage />} /> */}
+        <Route path="/" element={<PortfolioPage />} />
         <Route path="/about" element={<AboutPage />} />
-        {/* <Route path="/contact" element={<ContactPage />} /> */}
+        <Route path="/contact" element={<ContactPage />} />
         <Route path="/resume" element={<ResumePage />} />
         {/* Add other routes for different pages */}
       </Routes>

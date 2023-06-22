@@ -1,7 +1,7 @@
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-// import Box from '@mui/material/Box';
+import { Typography } from '@mui/material';
 
 
 const Project = () => {
@@ -40,12 +40,17 @@ const Project = () => {
               srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               alt={item.title}
               loading="lazy"
-              style={{ borderRadius: '10%' }}
+              style={{ borderRadius: '4%' }}
             />
             <ImageListItemBar
-              title={item.title}
-              subtitle={<span>About: {item.about}</span>}
+              title={
+                <Typography variant="subtitle1" fontWeight="bold">
+                  {item.title}
+                </Typography>
+              }
+              subtitle={<span>{item.about}</span>}
               position="below"
+              sx={{ marginTop: '16px', marginBottom: '16px' }}
             />
           </ImageListItem>
 

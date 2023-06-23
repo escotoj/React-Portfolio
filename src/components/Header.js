@@ -1,4 +1,4 @@
-import { Container, Grid, Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import React from "react";
 import Navigation from "./Navigation";
 
@@ -14,13 +14,6 @@ const Header = () => {
       <Grid item xs={12}>
         <Navigation />
       </Grid>
-      
-      {/* <Stack direction="row" justifyContent="center">
-        <Typography variant="h1" component="h2">
-          JE - Portfolio, Round 2
-        </Typography>
-      </Stack> */}
-      
     </Grid>
   );
 };

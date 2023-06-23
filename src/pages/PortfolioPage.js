@@ -1,5 +1,4 @@
-import { Box, Stack } from "@mui/material";
-import { Typography } from "@mui/material";
+import { Box, Stack, Typography } from "@mui/material";
 import Project from "../components/Project";
 
 
@@ -23,7 +22,6 @@ function PortfolioPage() {
       </Box>
       </Stack>
       
-      {/* <Footer/> */}
     </Box>
   );
 }

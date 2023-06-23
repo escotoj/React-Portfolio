@@ -29,13 +29,17 @@ GitHub: [escotoj](https://github.com/escotoj)
 ### TODO
 
 - mobile responsive navbar and projects
-- Add function to navbar links. 
-- contact page with a form. - page 
-- portfolio/projects - page
 - colors theme 
+- form input in localstorage 
+- aboutme style to match 
+- avatar photo
+
 
 ### DONE
 
+- portfolio/projects - page
+- contact page with a form. - page 
+- Add function to navbar links. 
 - footer icons
 - images to top projects
 - move header to top of navbar

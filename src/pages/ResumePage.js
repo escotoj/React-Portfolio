@@ -1,8 +1,4 @@
-import { Box, Stack } from "@mui/material";
-import { Typography } from "@mui/material";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
+import { Box, Stack, Typography } from "@mui/material";
 
 function ResumePage() {
   return (
@@ -27,7 +23,6 @@ function ResumePage() {
       </Box>
       </Stack>
       
-      {/* <Footer/> */}
     </Box>
   );
 }

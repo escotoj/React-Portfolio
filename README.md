@@ -28,12 +28,6 @@ GitHub: [escotoj](https://github.com/escotoj)
 
 ### TODO
 
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address
-
-
 - form input must show alert when nothing entered and proper email must be required, make it send you an email.  
 - aboutme - needs a avatar photo and background info 
 - mobile responsive navbar and projects

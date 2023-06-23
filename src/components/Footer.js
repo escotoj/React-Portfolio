@@ -6,23 +6,24 @@ const Footer = () => {
   return (
     <Box bgcolor="orange" display="flex" justifyContent="center">
       <a
-        href="https://github.com/your-github-profile"
+        href="https://github.com/escotoj"
         target="_blank"
         rel="noopener noreferrer"
+        style={{ color: "black", textDecoration: "none" }}
       >
         <GitHub sx={{ mr: 2 }} />
       </a>
-      <a
-        href="https://github.com/your-github-profile"
+      {/* <a
+        href="href=mailto:jaetheillust@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         style={{ color: "black", textDecoration: "none" }}
       >
         <Email sx={{ mr: 2 }} />{" "}
-      </a>
+      </a> */}
 
       <a
-        href="https://github.com/your-github-profile"
+        href="https://www.linkedin.com/in/jose-escoto-b9519a146/"
         target="_blank"
         rel="noopener noreferrer"
         style={{ color: "black", textDecoration: "none" }}

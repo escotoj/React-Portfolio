@@ -12,26 +12,39 @@ const Project = () => {
         about: 'Collaboration using Express and MySQL',
       },
       {
+        img: './Techblog12.png',
+        title: 'Full-Stack Blog Application',
+        about: 'Model-View-Controller Paradigm',
+      }
+      ,
+
+      {
         img: './weatherAppUpdate.png',
         title: 'Weather Application',
         about: 'BootStrap and IPA requests',
       },
       {
-        img: './Techblog12.png',
-        title: 'Full-Stack Blog Application',
-        about: 'Model-View-Controller Paradigm',
-      },
-      {
         img: './potterquizfinal.png',
         title: 'HP Timed Quiz',
         about: 'Vanilla HTML, CSS and JavaScript',
+      },
+
+      {
+        img: './bootstrapPortfolio.png',
+        title: 'Bootstrap Portfolio',
+        about: 'CDN Bootstrap, Line Awesome and Animate On Scroll' 
+      },
+      {
+        img: './passwordGen2.png',
+        title: 'Password Generator',
+        about: 'Applied data structures and algorithms along with vanilla HTML, CSS and JavaScript',
       }
     ];
   
     return (
       <ImageList sx={{
-        width: { xs: 350, sm: 500, lg: 800 },
-        height: { xs: 350, sm: 450, lg: 850 },
+        width: { xs: 350, sm: 600, lg: 1000 },
+        height: { xs: 350, sm: 600, lg: 1000 },
       }}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>

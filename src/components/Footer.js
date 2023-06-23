@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
-import { GitHub, Email, LinkedIn } from "@mui/icons-material";
+import { GitHub, Email, LinkedIn, Twitter } from "@mui/icons-material";
 
 const Footer = () => {
   return (
@@ -13,14 +13,14 @@ const Footer = () => {
       >
         <GitHub sx={{ mr: 2 }} />
       </a>
-      {/* <a
-        href="href=mailto:jaetheillust@gmail.com"
+      <a
+        href="https://twitter.com/jaetheillust"
         target="_blank"
         rel="noopener noreferrer"
         style={{ color: "black", textDecoration: "none" }}
       >
-        <Email sx={{ mr: 2 }} />{" "}
-      </a> */}
+        <Twitter sx={{ mr: 2 }} />{" "}
+      </a>
 
       <a
         href="https://www.linkedin.com/in/jose-escoto-b9519a146/"

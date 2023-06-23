@@ -8,7 +8,7 @@ const Header = () => {
     <Grid bgcolor="lavenderblush" spacing={2} textAlign="center" container={true} >
       <Grid item xs={12}>
       <Typography variant="h2" component="h2" style={{ fontWeight: '400' }}>
-          Jos.E
+      Jose Escoto
         </Typography>
       </Grid>
       <Grid item xs={12}>

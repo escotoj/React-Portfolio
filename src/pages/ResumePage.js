@@ -1,6 +1,7 @@
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Stack, Typography, Link } from "@mui/material";
 
 function ResumePage() {
+  const googleDocsUrl = "https://docs.google.com/document/d/19UuLxmMCDgvzWAPsT7BQBAnOKfOtiZ6-ex2g1qJqadM/edit?usp=sharing";
   return (
     <Box display="flex" justifyContent="center" alignItems="center" minHeight="50vh">
       <Stack spacing={2}>
@@ -19,6 +20,11 @@ function ResumePage() {
             <li>Understanding of data structures and algorithms.</li>
             <li>Designed applications using frameworks like BootStrap and Bulma CDN.</li>
  </p>
+ <Typography align="center">
+              <Link href={googleDocsUrl} download>
+                Download Resume
+              </Link>
+            </Typography>
       </Typography>
       </Box>
       </Stack>

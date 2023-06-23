@@ -11,7 +11,7 @@ function ResumePage() {
         <Box sx={{ backgroundColor: "#f5f5f5", padding: "50px", borderRadius: "8px" }}>
           <Typography variant="body1" align="center">
       <h2>Resume/CV</h2>
-      <h3>Full Stack Coding Bootcamp, UC Berkeley (2022) </h3>
+      <h3>Full Stack Coding Bootcamp, UC Berkeley (2023) </h3>
       <p align='left'>
       <li>Hands-on experience with building a diverse range of projects through Github Workflow using HTML, CSS, and JavaScript.</li>
             <li>Created full-stack web applications using third-party API, RESTful APIs, and AJAX methods.</li>

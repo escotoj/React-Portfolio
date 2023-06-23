@@ -1,6 +1,9 @@
 import { Box, Stack, TextField } from "@mui/material";
 import { Typography } from "@mui/material";
 
+
+
+// ADD BUTTON THAT TAKES INPUT FROM EAHC FORM 
 function ContactPage() {
   return (
     <Box
@@ -33,10 +36,10 @@ function ContactPage() {
               }}
             />
             <TextField
+            fullWidth
               id="outlined-email"
               label="Email"
               variant="outlined"
-              fullWidth
               InputProps={{
                 sx: { borderRadius: "4px", backgroundColor: "#ffffff" },
               }}

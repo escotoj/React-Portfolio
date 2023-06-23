@@ -1,5 +1,7 @@
 import { Box, Stack } from "@mui/material";
 import { Typography } from "@mui/material";
+import Project from "../components/Project";
+
 
 
 function PortfolioPage() {
@@ -15,6 +17,9 @@ function PortfolioPage() {
       <h3>Below is a a collection of my current and past work</h3>
       <p>Technologies used: JavaScript (Node, Express, React), CSS (Bootstrap, Jquery, Bulma, Handlebars), Databases (SQL, RESTful API, Sequelize)  </p>
       </Typography>
+      <Box display="flex" justifyContent="center">
+        <Project/>
+      </Box>
       </Box>
       </Stack>
       

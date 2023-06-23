@@ -18,16 +18,14 @@ function App() {
       <Router>
       <Header/>
       <Routes>
-        <Route path="/" element={<PortfolioPage />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
+        <Route path="/" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/resume" element={<ResumePage />} />
         {/* Add other routes for different pages */}
       </Routes>
     </Router>
-      <Box display="flex" justifyContent="center">
-        <Project/>
-      </Box>
+
       <Footer/>
     </Box>
   );

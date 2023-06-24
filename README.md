@@ -26,6 +26,8 @@ Email: j.escoto@gmail.com
 GitHub: [escotoj](https://github.com/escotoj)
 
 
+reactportfolio.png
+
 ### TODO
 
 - form input must show alert when nothing entered and proper email must be required, make it send you an email.  

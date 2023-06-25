@@ -13,8 +13,9 @@ function AboutPage() {
         <Box sx={{ backgroundColor: "#f5f5f5", padding: "50px", borderRadius: "8px" }}>
           <Typography variant="body1" align="center">
           <h2>AKA JAE The Illust  </h2>
-      <h3>FullStack Software Engineer </h3>
-            I'm a FullStack Web Development Student At UC Berkeley, CA. Nearing the end of this program and soon to enter the job market. I am on a journey to learn and apply web development skills start a career as Software Engineer
+      <h3>Full Stack Software Engineer </h3>
+      Started my working career as an artist, later studied Psychology at the University to later work as a recruiter in the tech industry. 
+            Now Im a Full Stack Web Development Student At UC Berkeley, CA. Nearing the end of this program and soon to enter the job market. I am on a journey to learn and apply web development skills start a career as Software Engineer
           </Typography>
           
           <Box display="flex" justifyContent="center" alignItems="center" marginTop="20px">

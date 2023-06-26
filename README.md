@@ -4,7 +4,7 @@
 
 Personal Portfolio to display current projects and contacts. 
 - Uses Material UI for styling
-- Features 6 of my most recent projects
+- Features six of my most recent projects
 
 ## Table of Contents
 
@@ -26,31 +26,5 @@ Jose Escoto, Full Stack Development Student, University of Berkeley.
 For more questions please contact below:
 Email: j.escoto@gmail.com
 GitHub: [escotoj](https://github.com/escotoj)
-
-
-reactportfolio.png
-
-### TODO
-
-- mobile responsive navbar and projects
-- colors theme 
-
-### DONE
-
-- form input must show alert when nothing entered and proper email must be required, make it send you an email.  
-- aboutme - needs a avatar photo and background info 
-- add a link to download CV or view it on google docs. 
-- add two more projects
-- portfolio/projects - page
-- contact page with a form. - page 
-- Add function to navbar links. 
-- footer icons
-- images to top projects
-- move header to top of navbar
-- about me - page
-- Resume/background - page
-
-
-npx create-react-app 
 
 ![React](public/reactportfolio.png)

@@ -94,7 +94,7 @@ function ContactPage() {
             </a>
             {" | "}
             <a
-              href="https://github.com/your-github-profile"
+  href="https://github.com/escotoj"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "purple", textDecoration: "none" }}
@@ -103,7 +103,7 @@ function ContactPage() {
             </a>
             {" | "}
             <a
-              href="https://twitter.com/your-twitter-profile"
+              href="https://twitter.com/jaetheillust"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "purple", textDecoration: "none" }}

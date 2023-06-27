@@ -88,7 +88,7 @@ function ContactPage() {
               href="https://www.linkedin.com/in/jose-escoto-b9519a146/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "purple", textDecoration: "none" }}
+              style={{ color: "darkorange", textDecoration: "none" }}
             >
               LinkedIn
             </a>
@@ -97,7 +97,7 @@ function ContactPage() {
   href="https://github.com/escotoj"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "purple", textDecoration: "none" }}
+              style={{ color: "darkorange", textDecoration: "none" }}
             >
               GitHub
             </a>
@@ -106,7 +106,7 @@ function ContactPage() {
               href="https://twitter.com/jaetheillust"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "purple", textDecoration: "none" }}
+              style={{ color: "darkorange", textDecoration: "none" }}
             >
               Twitter
             </a>

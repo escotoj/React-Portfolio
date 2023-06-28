@@ -2,9 +2,13 @@
 
 ## Description
 
-Personal Portfolio to display current projects and contacts. 
-- Uses Material UI for styling
-- Features six of my most recent projects
+Personal Portfolio featuring current projects, updated resume and links contacts/social media. 
+- Built with React for a mobile responsive and dynamic user interface. 
+- Uses Material UI and CoreUI for Icons for styling and components.
+- Features six of my most recent projects.
+- Components include Header, Footer and Navigation and Projects.
+- Deployed on [Github Pages](https://escotoj.github.io/React-Portfolio/)
+
 
 ## Table of Contents
 

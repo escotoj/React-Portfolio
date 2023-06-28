@@ -19,7 +19,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/portfolio" element={<PortfolioPage />} />
-        <Route path="/" element={<AboutPage />} />
+        <Route path="/React-Portfolio" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/resume" element={<ResumePage />} />
         {/* Add other routes for different pages */}

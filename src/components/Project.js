@@ -7,7 +7,7 @@ import { Typography } from '@mui/material';
 const Project = () => {
     const itemData = [
       {
-        img: './Four-Leaf-CasinoApp.png',
+        img: '/public/Four-Leaf-CasinoApp.png',
         title: 'Full-Stack Casino Application',
         about: 'Collaboration using Express and MySQL',
       },

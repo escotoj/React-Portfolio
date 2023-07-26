@@ -38,6 +38,11 @@ const Project = () => {
         img: 'React-Portfolio/passwordGen2.png',
         title: 'Password Generator',
         about: 'Applied data structures and algorithms along with vanilla HTML, CSS and JavaScript',
+      },
+      {
+        img: 'React-Portfolio/passwordGen2.png',
+        title: 'Card-X',
+        about: 'Full Stack MERN Application',
       }
     ];
   

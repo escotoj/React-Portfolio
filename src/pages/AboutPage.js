@@ -30,8 +30,7 @@ function AboutPage() {
             <h3>Full Stack Software Engineer </h3>
             Started my working career as an artist, later studied Psychology at
             the University to later work as a recruiter in the tech industry.
-            Now Im a Full Stack Web Development Student At UC Berkeley, CA.
-            Nearing the end of this program and soon to enter the job market. I
+            Now Im a Full Stack Web Development with a certificate of completion from UC Berkeley, CA. I
             am on a journey to learn and apply web development skills start a
             career as Software Engineer
           </Typography>

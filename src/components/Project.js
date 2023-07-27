@@ -40,9 +40,14 @@ const Project = () => {
         about: 'Applied data structures and algorithms along with vanilla HTML, CSS and JavaScript',
       },
       {
-        img: 'React-Portfolio/passwordGen2.png',
+        img: 'React-Portfolio/card-x.png',
         title: 'Card-X',
-        about: 'Full Stack MERN Application',
+        about: 'Led a team of 5 as Scrum Master to launch a Full Stack MERN Application and host it on Heroku using Atlas',
+      },
+      {
+        img: 'React-Portfolio/solid-workout-wip.png',
+        title: 'Solid Workout App',
+        about: 'Work in progress - MERN Application',
       }
     ];
   

@@ -30,5 +30,4 @@ Jose Escoto, Full Stack Development Student, University of Berkeley.
 For more questions please contact below:
 Email: j.escoto14@gmail.com
 GitHub: [escotoj](https://github.com/escotoj)
-
 ![React](public/reactportfolio.png)

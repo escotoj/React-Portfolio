@@ -54,7 +54,7 @@ const Project = () => {
     return (
       <ImageList sx={{
         width: { xs: 350, sm: 600, lg: 1000 },
-        height: { xs: 350, sm: 600, lg: 1000 },
+        height: { xs: 844, sm: 600, lg: 1000 },
       }}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
@@ -63,7 +63,7 @@ const Project = () => {
               srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               alt={item.title}
               loading="lazy"
-              style={{ borderRadius: '4%' }}
+              style={{ borderRadius: '4%' }} 
             />
             <ImageListItemBar
               title={

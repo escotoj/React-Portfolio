@@ -7,13 +7,13 @@ function AboutPage() {
       justifyContent="center"
       alignItems="center"
       minHeight="50vh"
+      sx={{
+        width: { xs: 400, sm: 600, lg: 1000 },
+        // height: { xs: 350, sm: 600, lg: 1000 },
+      }}
     >
       <Stack
-        spacing={2}
-        sx={{
-          width: { xs: 350, sm: 600, lg: 1000 },
-          // height: { xs: 350, sm: 600, lg: 1000 },
-        }}
+        spacing={1}
       >
         <Typography variant="h2" align="center">
           About Me
@@ -21,7 +21,7 @@ function AboutPage() {
         <Box
           sx={{
             backgroundColor: "#f5f5f5",
-            padding: "50px",
+            padding: "25px",
             borderRadius: "8px",
           }}
         >

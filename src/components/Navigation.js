@@ -5,7 +5,11 @@ import React from "react";
 
 const Navbar = () => {
   return (
-<Tabs centered>
+<Tabs centered
+        sx={{
+          width: { xs: 400, sm: 600, lg: 1000 },
+          // height: { xs: 350, sm: 600, lg: 1000 },
+        }}>
   <Tab label="Portfolio" component={Link} to="/portfolio"/>
   <Tab label="About Me" component={Link} to="/React-Portfolio/"/>
   <Whatshot sx={{ display: { xs: "block", sm: "none" } }} />

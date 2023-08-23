@@ -8,7 +8,7 @@ function AboutPage() {
       alignItems="center"
       minHeight="50vh"
       sx={{
-        width: { xs: 400, sm: 600, lg: 1000 },
+        width: { xs: 400, sm: 600, lg: "100%" },
         // height: { xs: 350, sm: 600, lg: 1000 },
       }}
     >
@@ -23,6 +23,7 @@ function AboutPage() {
             backgroundColor: "#f5f5f5",
             padding: "25px",
             borderRadius: "8px",
+            
           }}
         >
           <Typography variant="body1" align="center">

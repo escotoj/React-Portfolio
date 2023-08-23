@@ -6,7 +6,7 @@ const Header = () => {
   return (
  
     <Grid bgcolor="lavenderblush" spacing={1} textAlign="center" container={true} sx={{
-      width: { xs: 400, sm: 667, lg: 1000 },
+      width: { xs: 400, sm: 667, lg: "100%" },
       // height: { xs: 350, sm: 600, lg: 1000 },
     }} >
       <Grid item xs={12}>
@@ -14,7 +14,7 @@ const Header = () => {
       Jose Escoto
         </Typography>
       </Grid>
-      <Grid item xs={8}>
+      <Grid item xs={12}>
         <Navigation />
       </Grid>
     </Grid>

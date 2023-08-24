@@ -2,13 +2,11 @@ import { Box, Stack, Typography } from "@mui/material";
 
 function AboutPage() {
   return (
-    <Box
-      display="flex"
-      justifyContent="center"
-      alignItems="center"
-      minHeight="50vh"
+
+    <Box display="flex" justifyContent="center" alignItems="center" minHeight="50vh">
+         <Box
       sx={{
-        width: { xs: 400, sm: 600, lg: "100%" },
+        width: { xs: "100%", sm: "70%", lg: "70%" },
         // height: { xs: 350, sm: 600, lg: 1000 },
       }}
     >
@@ -51,6 +49,8 @@ function AboutPage() {
         </Box>
       </Stack>
     </Box>
+    </Box>
+ 
   );
 }
 

@@ -67,37 +67,43 @@ const Project = () => {
     ];
   
 return (
-  <ImageList sx={{
-    width: { xs: 350, sm: 600, lg: 1000 },
-    height: { xs: 844, sm: 600, lg: 1000 },
-  }}>
-    {itemData.map((item) => (
-        <ImageListItem>
-          <img
-            src={`${item.img}?w=248&fit=crop&auto=format`}
-            srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-            alt={item.title}
-            loading="lazy"
-            style={{ borderRadius: '4%' }} 
-          />
-          <ImageListItemBar
-            title={
-              <Typography variant="subtitle1" fontWeight="bold">
-                {item.title}
-              </Typography>
-            }
-            subtitle={<span>{item.about}</span>}
-            position="below"
-            sx={{ marginTop: '16px', marginBottom: '16px' }}
-          />
-                <a key={item.img} href={item.projectLink} target="_blank" rel="noopener noreferrer"> Learn More
-                </a>
-        </ImageListItem>
+  <ImageList>
+    
+  {itemData.map((item) => (
+    <ImageListItem sx={{ margin: '20px' }} key={item.img}>
+      <img
+        src={item.img}
+        alt={item.title}
+        loading="lazy"
+        style={{ width: '60%'
+          // height: { xs: 350, sm: 600, lg: 1000 },
+      }}
+      />
+      <ImageListItemBar
+        title={
+          <Typography variant="subtitle1" fontWeight="bold">
+            {item.title}
+          </Typography>
+        }
+        subtitle={<span>{item.about}</span>}
+        position="below"
+        sx={{ marginTop: '16px', marginBottom: '16px' }}
+      />
+      <a
+        href={item.projectLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ marginBottom: '16px', textDecoration: 'none', color: 'inherit' }}
+      >
+        Learn More
+      </a>
       
-    ))}
-  </ImageList>
+    </ImageListItem>
+    
+  ))}
+</ImageList>
 );
+};
 
-  };
   
 export default Project;

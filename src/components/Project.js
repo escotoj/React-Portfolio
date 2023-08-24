@@ -75,7 +75,7 @@ return (
         src={item.img}
         alt={item.title}
         loading="lazy"
-        style={{ width: '60%'
+        style={{ width: '80%'
           // height: { xs: 350, sm: 600, lg: 1000 },
       }}
       />

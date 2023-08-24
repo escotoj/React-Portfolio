@@ -3,12 +3,12 @@ import { Box, Stack, Typography, Link } from "@mui/material";
 function ResumePage() {
   const googleDocsUrl = "https://docs.google.com/document/d/19UuLxmMCDgvzWAPsT7BQBAnOKfOtiZ6-ex2g1qJqadM/edit?usp=sharing";
   return (
-    <Box display="flex" justifyContent="center" alignItems="center" minHeight="50vh">
+    <Box display="flex" justifyContent="center" alignItems="center" minHeight="50vh" marginBottom={32} marginTop={5}>
       <Stack spacing={2}>
         <Typography variant="h2" align="center">
           Resume
         </Typography>
-        <Box sx={{ backgroundColor: "#f5f5f5", padding: "50px", borderRadius: "8px" }}>
+        <Box sx={{ backgroundColor: "#f5f5f5", padding: "50px", borderRadius: "8px"  }}>
           <Typography variant="body1" align="center">
       <h2>Resume/CV</h2>
       <h3>Full Stack Coding Bootcamp, UC Berkeley (2023) </h3>

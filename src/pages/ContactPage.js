@@ -60,6 +60,7 @@ function ContactPage() {
       justifyContent="center"
       alignItems="center"
       minHeight="50vh"
+      marginTop={5}
     >
     
       <Stack spacing={2}>

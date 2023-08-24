@@ -3,7 +3,7 @@ import { Box, Stack, Typography } from "@mui/material";
 function AboutPage() {
   return (
 
-    <Box display="flex" justifyContent="center" alignItems="center" minHeight="50vh">
+    <Box display="flex" justifyContent="center" alignItems="center" minHeight="50vh" marginTop={5}>
          <Box
       sx={{
         width: { xs: "100%", sm: "70%", lg: "70%" },

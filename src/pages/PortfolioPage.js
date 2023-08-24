@@ -4,7 +4,7 @@ import Project from "../components/Project";
 function PortfolioPage() {
   return (
     <Box
-
+    marginTop={5}
     >
       <Stack spacing={2}>
         <Typography variant="h2" align="center">

@@ -4,7 +4,7 @@ import { GitHub, Email, LinkedIn, Twitter } from "@mui/icons-material";
 
 const Footer = () => {
   return (
-    <Box bgcolor="orange" display="flex" justifyContent="center">
+    <Box bgcolor="orange" display="flex" justifyContent="center" marginTop={20}>
       <a
         href="https://github.com/escotoj"
         target="_blank"

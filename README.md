@@ -34,7 +34,6 @@ GitHub: [escotoj](https://github.com/escotoj)
 ![React](public/reactportfolio.png)
 
 GET TO DO 
-fix footer
 projects, only list 3 projects. 
-and the other portfolio features them all. 
+make other portfolio features them all. 
 make react portfolio more advanced. 

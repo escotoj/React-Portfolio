@@ -5,10 +5,13 @@ import React from "react";
 
 const Navbar = () => {
   return (
+    
 <Tabs centered
         sx={{
           width: { xs: '100%', sm: '100%', lg: "100%" },
+          marginTop: "20px"
           // height: { xs: 350, sm: 600, lg: 1000 },
+          
         }}>
   <Tab label="Portfolio" component={Link} to="/portfolio"/>
   <Tab label="About Me" component={Link} to="/React-Portfolio/"/>

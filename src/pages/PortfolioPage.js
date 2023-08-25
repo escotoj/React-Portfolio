@@ -24,7 +24,7 @@ function PortfolioPage() {
               padding: "50px",
               borderRadius: "8px",
               width: "80%",
-            }}
+            }} 
           >
             <Typography variant="body1" align="center">
               <h2>Projects</h2>
@@ -35,11 +35,11 @@ function PortfolioPage() {
                 API, Sequelize, NoSQl, MongoDB){" "}
               </p>
             </Typography>
-            <Box
-              sx={{
+            <Box  
+              sx={{ 
                 width: { xs: "100%", sm: "100%", lg: "100%" },
                 // height: { xs: 350, sm: 600, lg: 1000 },
-              }}
+              }} 
             >
               <Project />
             </Box>

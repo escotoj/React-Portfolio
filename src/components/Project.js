@@ -1,17 +1,17 @@
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-import { Typography } from '@mui/material';
+import { Typography, Box } from '@mui/material';
 
 
 const Project = () => {
     const itemData = [
-      {
-        img: '/React-Portfolio/Four-Leaf-CasinoApp.png',
-        title: 'Full-Stack Casino Application',
-        about: 'Collaboration using Express and MySQL',
-        projectLink: 'https://github.com/ParticularSpace/WP-Cas'
-      },
+      // {
+      //   img: '/React-Portfolio/Four-Leaf-CasinoApp.png',
+      //   title: 'Full-Stack Casino Application',
+      //   about: 'Collaboration using Express and MySQL',
+      //   projectLink: 'https://github.com/ParticularSpace/WP-Cas'
+      // },
       {
         img: 'React-Portfolio/Techblog12.png',
         title: 'Full-Stack Blog Application',
@@ -21,35 +21,35 @@ const Project = () => {
       }
       ,
 
-      {
-        img: 'React-Portfolio/weatherAppUpdate.png',
-        title: 'Weather Application',
-        about: 'BootStrap and IPA requests',
-        projectLink: 'https://github.com/escotoj/WeatherApp'
+      // {
+      //   img: 'React-Portfolio/weatherAppUpdate.png',
+      //   title: 'Weather Application',
+      //   about: 'BootStrap and IPA requests',
+      //   projectLink: 'https://github.com/escotoj/WeatherApp'
 
-      },
-      {
-        img: 'React-Portfolio/potterquizfinal.png',
-        title: 'HP Timed Quiz',
-        about: 'Vanilla HTML, CSS and JavaScript',
-        projectLink: 'https://github.com/escotoj/QuizApp'
+      // },
+      // {
+      //   img: 'React-Portfolio/potterquizfinal.png',
+      //   title: 'HP Timed Quiz',
+      //   about: 'Vanilla HTML, CSS and JavaScript',
+      //   projectLink: 'https://github.com/escotoj/QuizApp'
 
-      },
+      // },
 
-      {
-        img: 'React-Portfolio/bootstrapPortfolio.png',
-        title: 'Bootstrap Portfolio',
-        about: 'CDN Bootstrap, Line Awesome and Animate On Scroll',
-        projectLink: 'https://github.com/escotoj/escotoj.github.io'
+      // {
+      //   img: 'React-Portfolio/bootstrapPortfolio.png',
+      //   title: 'Bootstrap Portfolio',
+      //   about: 'CDN Bootstrap, Line Awesome and Animate On Scroll',
+      //   projectLink: 'https://github.com/escotoj/escotoj.github.io'
  
-      },
-      {
-        img: 'React-Portfolio/passwordGen2.png',
-        title: 'Password Generator',
-        about: 'Applied data structures and algorithms along with vanilla HTML, CSS and JavaScript',
-        projectLink: 'https://github.com/escotoj/password_project-'
+      // },
+      // {
+      //   img: 'React-Portfolio/passwordGen2.png',
+      //   title: 'Password Generator',
+      //   about: 'Applied data structures and algorithms along with vanilla HTML, CSS and JavaScript',
+      //   projectLink: 'https://github.com/escotoj/password_project-'
 
-      },
+      // },
       {
         img: 'React-Portfolio/card-x.png',
         title: 'Card-X',
@@ -67,21 +67,20 @@ const Project = () => {
     ];
   
 return (
-  <ImageList>
+  <Box >  
+    <ImageList alignItems="center" sx={{ display:'block'}} >
     
   {itemData.map((item) => (
-    <ImageListItem sx={{ margin: '20px' }} key={item.img}>
+    <ImageListItem  sx={{ margin: '20px', marginTop:'50px'}} key={item.img}>
       <img
         src={item.img}
         alt={item.title}
         loading="lazy"
-        style={{ width: '80%'
-          // height: { xs: 350, sm: 600, lg: 1000 },
-      }}
+
       />
       <ImageListItemBar
         title={
-          <Typography variant="subtitle1" fontWeight="bold">
+          <Typography variant="h5" fontWeight="bold">
             {item.title}
           </Typography>
         }
@@ -101,7 +100,8 @@ return (
     </ImageListItem>
     
   ))}
-</ImageList>
+</ImageList></Box>
+
 );
 };
 

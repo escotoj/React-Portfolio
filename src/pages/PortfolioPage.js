@@ -1,4 +1,5 @@
 import { Box, Stack, Typography } from "@mui/material";
+import NewProject from "../components/NewProjects";
 import Project from "../components/Project";
 
 function PortfolioPage() {
@@ -41,6 +42,7 @@ function PortfolioPage() {
                 // height: { xs: 350, sm: 600, lg: 1000 },
               }} 
             >
+              <NewProject />
               <Project />
             </Box>
           </Box>

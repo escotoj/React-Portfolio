@@ -12,14 +12,14 @@ const Project = () => {
       //   about: 'Collaboration using Express and MySQL',
       //   projectLink: 'https://github.com/ParticularSpace/WP-Cas'
       // },
-      {
-        img: 'React-Portfolio/Techblog12.png',
-        title: 'Full-Stack Blog Application',
-        about: 'Model-View-Controller Paradigm',
-        projectLink: 'https://github.com/escotoj/TechBlogMVC'
+      // {
+      //   img: 'React-Portfolio/Techblog12.png',
+      //   title: 'Full-Stack Blog Application',
+      //   about: 'Model-View-Controller Paradigm',
+      //   projectLink: 'https://github.com/escotoj/TechBlogMVC'
 
-      }
-      ,
+      // }
+      // ,
 
       // {
       //   img: 'React-Portfolio/weatherAppUpdate.png',
@@ -50,13 +50,13 @@ const Project = () => {
       //   projectLink: 'https://github.com/escotoj/password_project-'
 
       // },
-      {
-        img: 'React-Portfolio/card-x.png',
-        title: 'Card-X',
-        about: 'Led a team of 5 as Scrum Master to launch a Full Stack MERN Application and host it on Heroku using Atlas',
-        projectLink: 'https://github.com/escotoj/Card-X'
+      // {
+      //   img: 'React-Portfolio/card-x.png',
+      //   title: 'Card-X',
+      //   about: 'Led a team of 5 as Scrum Master to launch a Full Stack MERN Application and host it on Heroku using Atlas',
+      //   projectLink: 'https://github.com/escotoj/Card-X'
 
-      },
+      // },
       {
         img: 'React-Portfolio/search.png',
         title: 'Solid Workout App',
@@ -71,7 +71,7 @@ return (
     <ImageList alignItems="center" sx={{ display:'block'}} >
     
   {itemData.map((item) => (
-    <ImageListItem  sx={{ margin: '20px', marginTop:'50px'}} key={item.img}>
+    <ImageListItem  sx={{ margin: '20px'}} key={item.img}>
       <img
         src={item.img}
         alt={item.title}

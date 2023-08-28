@@ -34,6 +34,7 @@ GitHub: [escotoj](https://github.com/escotoj)
 ![React](public/reactportfolio.png)
 
 GET TO DO 
-projects, only list 3 projects. 
-make other portfolio features them all. 
+Add funtion to the form page to email. 
+projects, only list 3 projects. - X
+make other portfolio features them all.
 make react portfolio more advanced. 

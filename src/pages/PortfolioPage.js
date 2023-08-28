@@ -32,8 +32,7 @@ function PortfolioPage() {
               <h3>Below is a a collection of my current and past work</h3>
               <p>
                 Tech Stack: JavaScript (Node, Express, React), CSS (Bootstrap,
-                Jquery, Bulma, Handlebars, MaterialUI), Databases (SQL, RESTful
-                API, Sequelize, NoSQl, MongoDB){" "}
+                Jquery, Bulma, Handlebars, MaterialUI), Databases (SQL, NoSQL, RESTful API, GraphQL, Sequelize, MongoDB){" "}
               </p>
             </Typography>
             <Box  

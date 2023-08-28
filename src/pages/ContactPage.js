@@ -49,7 +49,6 @@ function ContactPage() {
   };
 
   const validateEmail = (email) => {
-    //  simple regex for email validation
     const emailRegex = /^\S+@\S+\.\S+$/;
     return emailRegex.test(email);
   };
@@ -77,13 +76,10 @@ function ContactPage() {
         >
           <Typography variant="body1" align="center">
             <h2>Contact Me</h2>
-
-            {/* alert for when message is entered properly */}
             Send me a message or connect with me on my socials below!
             {showSuccessAlert && (
                   <Alert severity="success" style={{ justifyContent: 'center' }}>Message sent successfully!</Alert>
                 )}
-            {/* textfield wrapped in a form with a function that handles the event */}
             <br />
             <a
               href="https://www.linkedin.com/in/jose-escoto-b9519a146/"
@@ -118,7 +114,6 @@ function ContactPage() {
                 variant="outlined"
                 fullWidth
                 required
-                // we assign value by passing the event with data
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 InputProps={{

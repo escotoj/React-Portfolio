@@ -24,7 +24,7 @@ function ResumePage() {
           }}
         >
           <Typography variant="body1" align="center">
-            <h2>Resume/CV</h2>
+            <h3>Resume/CV</h3>
             <h3>Full Stack Coding Bootcamp, UC Berkeley (2023) </h3>
             <p align="left">
               <li>
@@ -53,14 +53,17 @@ function ResumePage() {
 
               </li>
             </p>
-            <Typography align="center">
+
+          </Typography>
+          
+        </Box>
+        <Typography align="center" marginTop={8}>
               <Link href={googleDocsUrl} download>
                 Download Resume
               </Link>
             </Typography>
-          </Typography>
-        </Box>
       </Stack>
+      
     </Box>
   );
 }

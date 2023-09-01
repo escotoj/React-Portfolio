@@ -68,7 +68,9 @@ const Project = () => {
   
 return (
   <Box >  
-    <ImageList alignItems="center" sx={{ display:'block'}} >
+    <ImageList alignItems="center" sx={{ display:'block',     maxWidth: '800px', 
+    margin: 'auto', 
+}}>
     
   {itemData.map((item) => (
     <ImageListItem  sx={{ margin: '20px'}} key={item.img}>

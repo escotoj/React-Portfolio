@@ -31,8 +31,7 @@ const NewProject = () => {
   return (
     <ImageList
       sx={{
-        width: '100%',
-        height: 500,
+        height: 400,
         transform: 'translateZ(0)',
       }}
     >
@@ -42,23 +41,21 @@ const NewProject = () => {
 
         return (
           <ImageListItem key={item.img} cols={cols} rows={rows}>
-           <a href={item.projectLink} style={{ textDecoration: 'none' }}>
-              <img
-                {...srcset(item.img, 250, 200, rows, cols)}
-                alt={item.title}
-                loading="lazy"
-                style={{ width: '100%' }}
-              />
-            </a>
-
+            <img
+              {...srcset(item.img, 250, 200, rows, cols)}
+              alt={item.title}
+              loading="lazy"
+              style={{ width: '100%' }}
+            />
   
             <ImageListItemBar
               sx={{
-                background: 'linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
+                background: 'linear-gradient(rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
               }}
               title={item.title}
               position="top"
             />
+            
           </ImageListItem>
         );
       })}
